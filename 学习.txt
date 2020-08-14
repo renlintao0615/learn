@@ -1,0 +1,32 @@
+Redis操作
+redis-server.exe redis.windows.conf
+
+卸载服务：redis-server --service-uninstall
+重下服务：redis-server --service-install redis.windows.conf
+开启服务：redis-server --service-start
+停止服务：redis-server --service-stop
+
+测试redis,安装目录 redis-cli 输入指令通过Set get指令查看是否成功
+config set requirepass 修改密码
+config set requirepass 查询密码
+auth 命令重新认证
+
+
+工作工具
+JDK8
+Maven
+Eclipse
+Git
+Redis
+MySQL
+SQLyog
+jdgui
+Lombock
+Postman
+Swagger2
+generator
+
+
+小白使用eclipse提交到GitHub (详细步骤)
+https://blog.csdn.net/bendanany/article/details/78891804
+
